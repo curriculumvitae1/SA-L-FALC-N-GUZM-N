@@ -1,0 +1,640 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+<!-- Simple Page Needs
+================================================== -->
+<title>Mat</title>
+<meta charset="UTF-8">
+<meta name="description" content="Mat - Resume & vCard HTML Template">
+<meta name="keywords" content="personal, vcard, portfolio">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+<!-- Favicon
+================================================== -->  
+<link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
+<!-- CSS
+================================================== -->
+<link rel="stylesheet" href="css/bootstrap.css"/>
+<link rel="stylesheet" href="css/reset.css"/>
+<link rel="stylesheet" href="cubeportfolio/css/cubeportfolio.min.css"/>
+<link rel="stylesheet" href="css/owl.theme.css"/> 
+<link rel="stylesheet" href="css/owl.carousel.css"/>
+<link rel="stylesheet" href="css/style.css"/>
+<link rel="stylesheet" href="css/colors/yellow.css" id="color"/>
+
+<style>
+body {
+    background-color: white !important;
+    font-size: 16px !important;
+}
+.wrapper {
+    background-color: white !important;
+}
+.graybg {
+    background-color: #f8f9fa !important;
+}
+.section-title {
+    margin-bottom: 30px !important;
+}
+.section-title h2 {
+    font-size: 28px !important;
+}
+.about-me {
+    padding: 40px 30px !important;
+    margin-bottom: 40px !important;
+}
+.services {
+    padding: 50px 30px !important;
+    margin-bottom: 40px !important;
+}
+.design-skills, .code-skills {
+    padding: 40px 30px !important;
+    margin-bottom: 40px !important;
+}
+.service {
+    margin-bottom: 30px !important;
+}
+.service .title {
+    font-size: 18px !important;
+}
+p {
+    line-height: 1.8 !important;
+    margin-bottom: 20px !important;
+    font-size: 16px !important;
+}
+.little-text {
+    font-size: 15px !important;
+}
+.profile-information li {
+    margin-bottom: 10px !important;
+}
+.profile-information p {
+    font-size: 15px !important;
+}
+.name {
+    font-size: 24px !important;
+}
+.job {
+    font-size: 16px !important;
+}
+.tabs a {
+    font-size: 15px !important;
+}
+h3 {
+    font-size: 18px !important;
+}
+/* Estilos específicos para la sección de currículum */
+.timeline {
+    padding: 30px 0 !important;
+}
+.timeline li {
+    margin-bottom: 30px !important;
+    padding: 20px !important;
+    border-left: 3px solid #f0f0f0 !important;
+    padding-left: 25px !important;
+}
+.timeline .line-title {
+    font-size: 18px !important;
+    margin-bottom: 10px !important;
+    line-height: 1.4 !important;
+}
+.timeline span {
+    font-size: 15px !important;
+    margin-bottom: 15px !important;
+    display: block !important;
+}
+.timeline .little-text {
+    font-size: 15px !important;
+    line-height: 1.7 !important;
+    margin-top: 10px !important;
+}
+.working-history, .education-history {
+    padding: 30px 20px !important;
+}
+.timeline-title {
+    font-size: 22px !important;
+    margin-bottom: 25px !important;
+}
+</style>
+
+    
+<!-- Google Web fonts
+================================================== --> 
+<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900" rel="stylesheet">
+
+<!-- Font Icons
+================================================== --> 
+<link rel="stylesheet" href="icon-fonts/font-awesome-4.7.0/css/font-awesome.min.css"/>
+<link rel="stylesheet" href="icon-fonts/web-design/flaticon.css" />
+
+<!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+</head>
+<body>
+ <!-- Preloading -->
+<div id="preloader">
+    <div class="spinner">
+    </div>
+</div>  
+    
+<!-- Wrapper --> 
+<div class="wrapper top_60 container">
+<div class="row">
+        
+<!-- Profile Section -->
+<div class="col-lg-3 col-md-4">
+    <div class="profile" style="margin-bottom: 40px;">
+        <div class="profile-name">
+            <span class="name">S.F.G.</span><br>
+            <span class="job">Director General</span>
+        </div>
+        <figure class="profile-image">
+            <img src="./saulcv.png" alt="">
+        </figure> 
+        <ul class="profile-information">
+            <li></li>
+            <li><p><span>Cargo:</span> Director General</p></li>
+            <li><p><span>Institución:</span> Dirección General de Seguridad Ciudadana y Movilidad Segura</p></li>
+            <li><p><span>Ubicación:</span> Naucalpan</p></li>
+            <li><p><span>Período:</span> 2023-2024</p></li>
+            <li><p><span>Función:</span> Secretario particular</p></li>
+        </ul>
+        <div class="col-md-12">
+            <button class="site-btn icon">Download Cv <i class="fa fa-download" aria-hidden="true"></i></button>
+        </div>
+    </div>
+</div>
+
+<!-- Page Tab Container Div -->   
+<div id="ajax-tab-container" class="col-lg-9 col-md-8 tab-container">
+    
+<!-- Header
+================================================== --> 
+<div class="row">
+    <header class="col-md-12">
+        <nav>
+            <div class="row">
+                <!-- navigation bar -->
+                <div class="col-md-8 col-sm-8 col-xs-4">
+                    <ul class="tabs">
+                        <li class="tab">
+                            <a class="home-btn" href="#home"><i class="fa fa-home" aria-hidden="true"></i></a>
+                        </li>
+                        <li class="tab"><a href="#resume">CURRÍCULUM</a></li>
+                        <li class="tab"><a href="#contact">CONTACTO</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 col-sm-4 col-xs-8 dynamic">
+                    <button class="pull-right site-btn icon hidden-xs">Contáctame <i class="fa fa-paper-plane" aria-hidden="true"></i></button>
+                    <div class="hamburger pull-right hidden-lg hidden-md"><i class="fa fa-bars" aria-hidden="true"></i></div>
+                    <div class="hidden-md social-icons pull-right"> 
+                        <a class="fb" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a> 
+                        <a class="tw" href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a> 
+                        <a class="ins" href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a> 
+                        <a class="dr" href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a> 
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+        
+    <!-- Page Content
+    ================================================== --> 
+    <div class="col-md-12">
+        <div id="content" class="panel-container">
+          
+            <!-- Home Page
+            ================================================== -->  
+            <div id="home">
+                <!-- Text Section -->
+                <div class="row" style="margin-bottom: 60px;">
+                    <section class="about-me line col-md-12 padding_30 padbot_45">
+                    <div class="section-title"><span></span><h2>Acerca de Mí</h2></div>
+                    <p class="top_30">Profesional con experiencia en el sector público, especializado en seguridad ciudadana y movilidad urbana. Durante el período 2023-2024, me desempeñé como Director General de la Dirección General de Seguridad Ciudadana y Movilidad Segura de Naucalpan, donde ejercí funciones como Secretario particular.
+                        <br>
+                        <br>Mi experiencia incluye la gestión y coordinación de políticas públicas orientadas a mejorar la seguridad ciudadana y optimizar los sistemas de movilidad urbana, contribuyendo al desarrollo sostenible y la calidad de vida de la comunidad.</p>
+                </section>
+                </div>
+                <!-- My Services Section -->
+                <div class="row" style="margin-bottom: 60px;">
+                    <section class="services line graybg col-md-12 padding_50 padbot_50">
+                    <div class="section-title bottom_45"><span></span><h2>Mis Servicios</h2></div>
+                    <div class="row">
+                        <!-- a service -->
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="service">
+                                <div class="icon">
+                                    <i class="flaticon-html"></i>
+                                </div>
+                                <span class="title">Desarrollo Web</span>
+                                <p class="little-text">He trabajado en diseño web durante 10 años.</p>
+                            </div>
+                        </div>
+                        <!-- a service -->
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="service">
+                                <div class="icon">
+                                    <i class="flaticon-attach"></i>
+                                </div>
+                                <span class="title">Identidad de Marca</span>
+                                <p class="little-text">Te haremos una marca que sea atractiva y deje huella.</p>
+                            </div>
+                        </div>
+                        <!-- a service -->
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="service">
+                                <div class="icon">
+                                    <i class="flaticon-vector"></i>
+                                </div>
+                                <span class="title">Ilustración</span>
+                                <p class="little-text">He trabajado en diseño de ilustración durante 6 años.</p>
+                            </div>
+                        </div>
+                        <!-- a service -->
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="service">
+                                <div class="icon">
+                                    <i class="flaticon-schedule"></i>
+                                </div>
+                                <span class="title">Entrega Rápida</span>
+                                <p class="little-text">Entrego tu proyecto lo más rápido posible.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                </div>
+                <!-- Skills Section -->
+                <div class="row" style="margin-bottom: 60px;">
+                    <section class="design-skills col-md-6 padding_60 padbot_50">
+                        <div class="section-title bottom_45"><span></span><h2>Habilidades de Liderazgo</h2></div>
+                        <ul class="skill-list">
+                            <li> 
+                                <h3>Liderazgo</h3>
+                                <div class="progress">
+                                    <div class="percentage" style="width:90%;"></div>
+                                </div>
+                            </li>
+                            <li> 
+                                <h3>Proactividad</h3>
+                                <div class="progress">
+                                    <div class="percentage" style="width:85%;"></div>
+                                </div>
+                            </li>
+                            <li> 
+                                <h3>Facilidad de palabra</h3>
+                                <div class="progress">
+                                    <div class="percentage" style="width:88%;"></div>
+                                </div>
+                            </li>
+                            <li> 
+                                <h3>Resolución de conflictos</h3>
+                                <div class="progress">
+                                    <div class="percentage" style="width:82%;"></div>
+                                </div>
+                            </li>
+                        </ul>
+                    </section>
+                    <section class="code-skills col-md-6 padding_60">
+                        <div class="section-title bottom_45"><span></span><h2>Habilidades Interpersonales</h2></div>
+                        <ul class="skill-list">
+                            <li> 
+                                <h3>Sociable</h3>
+                                <div class="progress">
+                                    <div class="percentage" style="width:90%;"></div>
+                                </div>
+                            </li>
+                            <li> 
+                                <h3>Responsable</h3>
+                                <div class="progress">
+                                    <div class="percentage" style="width:95%;"></div>
+                                </div>
+                            </li>
+                            <li> 
+                                <h3>Trabajo en equipo</h3>
+                                <div class="progress">
+                                    <div class="percentage" style="width:87%;"></div>
+                                </div>
+                            </li>
+                            <li> 
+                                <h3>Escucha activa</h3>
+                                <div class="progress">
+                                    <div class="percentage" style="width:85%;"></div>
+                                </div>
+                            </li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+            
+            <!-- Resume Page
+            ================================================== --> 
+            <div id="resume">
+                <!-- Resume Section -->
+                <div class="row">
+                    <section class="education">
+                    <div class="section-title top_30"><span></span><h2>Resume</h2></div>
+                        <div class="row">
+                            <!-- Working History -->
+                            <div class="working-history col-md-6 padding_15 padbot_30">
+                                <ul class="timeline col-md-12 top_30">
+                                    <li><i class="fa fa-suitcase" aria-hidden="true"></i><h2 class="timeline-title">Working History</h2></li>
+                                    <!-- a work -->
+                                    <li><h3 class="line-title">Director General - Dirección General de Seguridad Ciudadana y Movilidad Segura</h3>
+                                        <span>2023 - 2024</span>
+                                        <p class="little-text">Gestión y coordinación de políticas públicas orientadas a mejorar la seguridad ciudadana y optimizar los sistemas de movilidad urbana, ejerciendo funciones como Secretario particular.</p>
+                                    </li>
+                                   <!-- a work -->
+                                    <li><h3 class="line-title">Asistente Comercial - DOMO EDUCATIVO</h3>
+                                        <span>2020 - 2021</span>
+                                        <p class="little-text">Gestión en desarrollo de campañas publicitarias, estrategias de marketing, prospección y atención al cliente.</p>
+                                    </li>
+                                   <!-- a work -->
+                                    <li><h3 class="line-title">Capacitador Administrativo - PROCTER & GAMBLE</h3>
+                                        <span>2018 - 2019</span>
+                                        <p class="little-text">Capacitación de personal del área administrativa, desarrollo de programas de formación y mejora de procesos organizacionales.</p>
+                                    </li>
+                                   <!-- a work -->
+                                    <li><h3 class="line-title">Recursos Humanos - PROCTER & GAMBLE</h3>
+                                        <span>2017 - 2018</span>
+                                        <p class="little-text">Reclutamiento y capacitación de personal, gestión de procesos de selección y desarrollo del talento humano.</p>
+                                    </li>
+                                </ul> 
+                            </div>  
+                            <!-- Education History -->
+                            <div class="education-history col-md-6 padding_15 padbot_30">
+                                <ul class="timeline col-md-12 top_30">
+                                    <li><i class="fa fa-graduation-cap" aria-hidden="true"></i><h2 class="timeline-title">Education History</h2></li>
+                                    <!-- a work -->
+                                    <li><h3 class="line-title">Universidad Tecnológica de México</h3>
+                                        <span>2015 - 2018</span>
+                                        <p class="little-text">Licenciatura en Psicología. Formación integral en el estudio del comportamiento humano, procesos cognitivos y desarrollo de habilidades para la gestión del talento humano.</p>
+                                    </li>
+                                   <!-- a work -->
+                                    <li><h3 class="line-title">Diplomado en Regulación Sanitaria de la Publicidad y Aspectos de Protección al Consumidor - AMEPRES, A.C.</h3>
+                                        <span>2023</span>
+                                        <p class="little-text">Especialización en metas e indicadores, presupuesto basado en resultados municipales y plan de desarrollo municipal. Reconocimiento por participación.</p>
+                                    </li>
+                                   <!-- a work -->
+                                    <li><h3 class="line-title">Diplomado en Regulación Publicitaria e E-Commerce - AMEPRES, A.C.</h3>
+                                        <span>2022</span>
+                                        <p class="little-text">Especialización en normativas publicitarias y comercio electrónico, desarrollo de competencias en marketing digital y regulaciones comerciales.</p>
+                                    </li>
+                                   <!-- a work -->
+                                    <li><h3 class="line-title">Diplomado en Tanatología - Universidad Tecnológica de México</h3>
+                                        <span>2017 - 2018</span>
+                                        <p class="little-text">Especialización en el acompañamiento y apoyo psicológico en procesos de duelo, pérdida y muerte. Desarrollo de competencias para la atención integral en situaciones de crisis.</p>
+                                    </li>
+                                </ul> 
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <!-- Portfolio Page
+            ================================================== --> 
+            <div id="portfolio" class="row bottom_45">
+                <section class="col-md-12">
+                    <div class="col-md-12 content-header bottom_15">
+                        <div class="section-title top_30 bottom_30"><span></span><h2>Proyectos y Logros</h2></div>
+                        <div id="filters-container">
+                            <!-- '*' means shows all item elements -->
+                            <div data-filter="*" class="cbp-filter-item cbp-filter-item-active">Todos</div>
+                            <div data-filter=".seguridad" class="cbp-filter-item">Seguridad Ciudadana</div>
+                            <div data-filter=".movilidad" class="cbp-filter-item">Movilidad Urbana</div>
+                            <div data-filter=".gestion" class="cbp-filter-item">Gestión Pública</div>
+                        </div>
+                    </div>
+                    <div id="grid-container" class="top_60">
+                        <!-- a work -->
+                        <div class="cbp-item webdesign">
+                            <a href="portfolio-detail/work-01.html" class=" cbp-singlePage">
+                                <figure>
+                                    <div class="icon">
+                                        <i class="fa fa-clone" aria-hidden="true"></i>
+                                    </div>
+                                    <img src="images/works/work-01.jpg" alt="" >
+                                    <figcaption>
+                                        <span class="title">Babel Admin</span><br/>
+                                        <span class="info">An admin template design.</span>
+                                    </figcaption>
+                                </figure>
+                            </a>
+                        </div>
+                        <!-- a video work -->
+                        <div class="cbp-item cbp-lightbox motion">
+                            <a href="http://www.youtube.com/watch?v=bpOSxM0rNPM&rel=0&autoplay=1" class="cbp-lightbox">
+                                <figure>
+                                    <div class="icon">
+                                        <i class="fa fa-play" aria-hidden="true"></i>
+                                    </div>
+                                    <img src="images/works/work-02.jpg" alt="" >
+                                    <figcaption>
+                                        <span class="title">George Motion</span><br/>
+                                        <span class="info">An motion graphic design.</span>
+                                    </figcaption>
+                                </figure>
+                            </a>
+                        </div>
+                        <!-- a image work -->
+                        <div class="cbp-item cbp-lightbox photography">
+                            <a href="images/works/work-06.jpg" class="cbp-lightbox">
+                                <figure>
+                                    <div class="icon">
+                                        <i class="fa fa-picture-o" aria-hidden="true"></i>
+                                    </div>
+                                    <img src="images/works/work-06.jpg" alt="">                       
+                                    <figcaption>
+                                        <span class="title">Amazon Travel</span><br/>
+                                        <span class="info">Nature photography work.</span>
+                                    </figcaption>
+                                </figure>
+                            </a>
+                        </div>
+                        <!-- a work -->
+                        <div class="cbp-item webdesign">
+                            <a href="portfolio-detail/work-02.html" class="cbp-singlePage">
+                                <figure>
+                                    <div class="icon">
+                                        <i class="fa fa-clone" aria-hidden="true"></i>
+                                    </div>
+                                    <img src="images/works/work-03.jpg" alt="">
+                                    <figcaption>
+                                        <span class="title">My Workspace</span><br/>
+                                        <span class="info">My current workspace design.</span>
+                                    </figcaption>
+                                </figure>
+                            </a>
+                        </div>
+                        <!-- a video work -->
+                        <div class="cbp-item motion">
+                            <a href="https://vimeo.com/199074744" class="cbp-lightbox">
+                                <figure>
+                                    <div class="icon">
+                                        <i class="fa fa-play" aria-hidden="true"></i>
+                                    </div>
+                                    <img src="images/works/work-04.jpg" alt="">
+                                    <figcaption>
+                                        <span class="title">Recoba Template</span><br/>
+                                        <span class="info">Html template design.</span>
+                                    </figcaption>
+                                </figure>
+                            </a>
+                        </div>
+                        <!-- a work -->
+                        <div class="cbp-item webdesign">
+                            <a href="portfolio-detail/work-01.html" class="cbp-singlePage">
+                                <figure>
+                                    <div class="icon">
+                                        <i class="fa fa-clone" aria-hidden="true"></i>
+                                    </div>
+                                    <img src="images/works/work-05.jpg" alt="">
+                                    <figcaption>
+                                        <span class="title">Doddy App</span><br/>
+                                        <span class="info">Mobile app ui kit design.</span>
+                                    </figcaption>
+                                </figure>
+                            </a>
+                        </div>
+                        <!-- a work -->
+                        <div class="cbp-item illustration">
+                            <a href="portfolio-detail/work-01.html" class="cbp-singlePage">
+                                <figure>
+                                    <div class="icon">
+                                        <i class="fa fa-clone" aria-hidden="true"></i>
+                                    </div>
+                                    <img src="images/works/work-07.jpg" alt="">
+                                    <figcaption>
+                                        <span class="title">Bob Stayler </span><br/>
+                                        <span class="info">Illustration characher design.</span>
+                                    </figcaption>
+                                </figure>
+                            </a>
+                        </div>
+                        <!-- a work -->
+                        <div class="cbp-item illustration">
+                            <a href="portfolio-detail/work-01.html" class="cbp-singlePage">
+                                <figure>
+                                    <div class="icon">
+                                        <i class="fa fa-clone" aria-hidden="true"></i>
+                                    </div>
+                                    <img src="images/works/work-08.jpg" alt="">
+                                    <figcaption>
+                                        <span class="title">Exemag Wordpress Theme</span><br/>
+                                        <span class="info">Multiconcept Blog Theme.</span>
+                                    </figcaption>
+                                </figure>
+                            </a>
+                        </div>
+                        <!-- a work -->
+                        <div class="cbp-item illustration">
+                            <a href="portfolio-detail/work-01.html" class="cbp-singlePage">
+                                <figure>
+                                    <div class="icon">
+                                        <i class="fa fa-clone" aria-hidden="true"></i>
+                                    </div>
+                                    <img src="images/works/work-09.jpg" alt="">
+                                    <figcaption>
+                                        <span class="title">Babel Admin Html Code</span><br/>
+                                        <span class="info">An admin template design.</span>
+                                    </figcaption>
+                                </figure>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- load more button -->
+                    <div id="js-loadMore-agency" class="cbp-l-loadMore-button top_30">
+                        <a href="load-more/portfolio.html" class="cbp-l-loadMore-link site-btn" rel="nofollow">
+                            <span class="cbp-l-loadMore-defaultText">Load More (<span class="cbp-l-loadMore-loadItems">3</span>)</span>
+                            <span class="cbp-l-loadMore-loadingText">Loading...</span>
+                            <span class="cbp-l-loadMore-noMoreLoading">No More Works</span>
+                        </a>
+                    </div>
+                </section>
+            </div>
+                
+            <!-- Contact Page
+            ================================================== --> 
+            <div id="contact">
+                <div class="row">
+                    <!-- Contact Form -->
+                    <section class="contact-form col-md-6 padding_30 padbot_45">
+                        <div class="section-title top_15 bottom_30"><span></span><h2>Contact Form</h2></div>
+                        <form class="site-form">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <input class="site-input" placeholder="Name">
+                                </div>
+                                <div class="col-md-6">
+                                    <input class="site-input" placeholder="E-mail">
+                                </div>
+                                <div class="col-md-12">
+                                    <textarea class="site-area" placeholder="Message"></textarea>
+                                </div>
+                                <div class="col-md-12 top_15 bottom_30">
+                                    <button class="site-btn" type="submit">Submit</button>
+                                </div>
+                            </div>
+                        </form>  
+                    </section>
+                    <!-- Contact Informations -->
+                    <section class="contact-info col-md-6 padding_30 padbot_45">
+                        <div class="section-title top_15 bottom_30"><span></span><h2>Contact Informations</h2></div>
+                        <ul>
+                            <li><span>Dirección:</span> Naucalpan, Estado de México</li>
+                            <li><span>Teléfono:</span> 55 59 91 39 89</li>
+                            <li><span>Cargo:</span> Director General</li>
+                            <li><span>E-mail:</span> falcongsaul@gmail.com</li>
+                            <li>
+                                <div class="social-icons top_15"> 
+                                    <a class="fb" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a> 
+                                    <a class="tw" href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a> 
+                                    <a class="ins" href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a> 
+                                    <a class="dr" href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a> 
+                                </div>
+                            </li>
+                        </ul>
+                    </section>
+                    <!-- Contact Map -->
+                    <section class="contact-map col-md-12 top_15 bottom_15">
+                        <div class="section-title bottom_30"><span></span><h2>Contact Map.</h2></div>  
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24396.455763004884!2d-115.13108354428735!3d36.18912977254862!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c75ddc27da13%3A0xe22fdf6f254608f4!2sLos+Angeles%2C+Kaliforniya%2C+Birle%C5%9Fik+Devletler!5e0!3m2!1str!2str!4v1509525039851" height="350" style="border:0" allowfullscreen></iframe>
+                    </section>
+                </div>
+            </div>
+            
+        </div><!-- Content - End -->
+     </div> <!-- col-md-12 end -->
+</div><!-- row end -->
+<!-- Footer
+================================================== --> 
+<footer>
+    <div class="footer col-md-12 top_30 bottom_30">
+        <div class="name col-md-4 hidden-md hidden-sm hidden-xs">Henry Rooney.</div>
+        <div class="copyright col-lg-8 col-md-12">© 2017 All rights reserved. Designed by <a href="https://themeforest.net/user/tavonline">tavonline</a> </div>  
+    </div>
+</footer>
+    
+</div> <!-- Tab Container - End -->
+</div> <!-- Row - End --> 
+</div> <!-- Wrapper - End -->   
+
+<!-- Javascripts
+================================================== -->  
+<script src="js/jquery-2.1.4.min.js"></script> 
+<script src="cubeportfolio/js/jquery.cubeportfolio.min.js"></script>
+<script src="js/bootstrap.min.js"></script> 
+<script src="js/jquery.easytabs.min.js"></script>
+<script src="js/owl.carousel.min.js"></script> 
+<script src="js/main.js"></script>
+<!-- for color alternatives -->
+<script src="js/jquery.cookie-1.4.1.min.js"></script>
+<script src="js/Demo.js"></script>
+<link rel="stylesheet" href="css/Demo.min.css" />
+ 
+
+</body>
+</html>
