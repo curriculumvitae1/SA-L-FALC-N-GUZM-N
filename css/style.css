@@ -135,11 +135,11 @@ hr{
 }
 
 .site-btn.icon i{
-    color: #000;
-    background: #fff;
+    color: #ffffff;
+    
     margin-left: 15px;
-    border-radius: 50px;
-    font-size: 11px;
+   
+    font-size: 22px;
     height: 27px;
     width: 27px;
     float: right;
