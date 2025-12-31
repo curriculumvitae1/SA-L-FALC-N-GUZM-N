@@ -175,6 +175,8 @@ footer .name {
 ================================================== --> 
 <link rel="stylesheet" href="icon-fonts/font-awesome-4.7.0/css/font-awesome.min.css"/>
 <link rel="stylesheet" href="icon-fonts/web-design/flaticon.css" />
+<!-- AOS Library -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 <!--[if lt IE 9]>
 	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -251,7 +253,7 @@ footer .name {
             <div id="home">
                 <!-- Text Section -->
                 <div class="row" style="margin-bottom: 60px;">
-                    <section class="about-me line col-md-12 padding_30 padbot_45">
+                    <section class="about-me line col-md-12 padding_30 padbot_45" data-aos="fade-up" data-aos-duration="1000">
                     <div class="section-title"><span></span><h2>Acerca de Mí</h2></div>
                     <p class="top_30">Profesional con experiencia en el sector público, especializado en seguridad ciudadana y movilidad urbana. Durante el período 2023-2024, me desempeñé como Director General de la Dirección General de Seguridad Ciudadana y Movilidad Segura de Naucalpan, donde ejercí funciones como Secretario particular.
                         <br>
@@ -260,11 +262,11 @@ footer .name {
                 </div>
                 <!-- My Services Section -->
                 <div class="row" style="margin-bottom: 60px;">
-                    <section class="services line graybg col-md-12 padding_50 padbot_50">
+                    <section class="services line graybg col-md-12 padding_50 padbot_50" data-aos="fade-up" data-aos-duration="1000">
                     <div class="section-title bottom_45"><span></span><h2>Mis Servicios</h2></div>
                     <div class="row">
                         <!-- a service -->
-                        <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="col-md-3 col-sm-6 col-xs-12" data-aos="zoom-in" data-aos-duration="800">
                             <div class="service">
                                 <div class="icon">
                                     <i class="flaticon-html"></i>
@@ -274,7 +276,7 @@ footer .name {
                             </div>
                         </div>
                         <!-- a service -->
-                        <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="col-md-3 col-sm-6 col-xs-12" data-aos="zoom-in" data-aos-duration="800">
                             <div class="service">
                                 <div class="icon">
                                     <i class="flaticon-attach"></i>
@@ -284,7 +286,7 @@ footer .name {
                             </div>
                         </div>
                         <!-- a service -->
-                        <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="col-md-3 col-sm-6 col-xs-12" data-aos="zoom-in" data-aos-duration="800">
                             <div class="service">
                                 <div class="icon">
                                     <i class="flaticon-vector"></i>
@@ -294,7 +296,7 @@ footer .name {
                             </div>
                         </div>
                         <!-- a service -->
-                        <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="col-md-3 col-sm-6 col-xs-12" data-aos="zoom-in" data-aos-duration="800">
                             <div class="service">
                                 <div class="icon">
                                     <i class="flaticon-schedule"></i>
@@ -308,7 +310,7 @@ footer .name {
                 </div>
                 <!-- Skills Section -->
                 <div class="row" style="margin-bottom: 60px;">
-                    <section class="design-skills col-md-6 padding_60 padbot_50">
+                    <section class="design-skills col-md-6 padding_60 padbot_50" data-aos="fade-left" data-aos-duration="1000">
                         <div class="section-title bottom_45"><span></span><h2>Habilidades de Liderazgo</h2></div>
                         <ul class="skill-list">
                             <li> 
@@ -337,7 +339,7 @@ footer .name {
                             </li>
                         </ul>
                     </section>
-                    <section class="code-skills col-md-6 padding_60">
+                    <section class="code-skills col-md-6 padding_60" data-aos="fade-right" data-aos-duration="1000">
                         <div class="section-title bottom_45"><span></span><h2>Habilidades Interpersonales</h2></div>
                         <ul class="skill-list">
                             <li> 
@@ -501,6 +503,14 @@ footer .name {
 <script src="js/jquery.easytabs.min.js"></script>
 <script src="js/owl.carousel.min.js"></script> 
 <script src="js/main.js"></script>
+<!-- AOS Script -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1000,
+    once: true
+  });
+</script>
 <!-- for color alternatives -->
 <script src="js/jquery.cookie-1.4.1.min.js"></script>
 
